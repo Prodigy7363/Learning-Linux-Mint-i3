@@ -1,35 +1,33 @@
 # Learning Linux Mint & i3
 
-My first Linux learning journey: moving from Linux Mint Cinnamon to i3 and building a personalized desktop on a low-resource Chromebook.
+I started this project to learn more about Linux by customizing Linux Mint and trying out the i3 window manager on my Acer Chromebook 315.
 
-This repository documents the process, customization choices, commands, problems, and lessons learned while exploring Linux Mint and the i3 window manager for the first time.
+I wanted a desktop that looked the way I wanted without being too heavy for a Chromebook with 4 GB of RAM. The setup has a dark theme with hot-pink accents, a tiling window manager, a custom Polybar, Rofi menus, Kitty, and a few handy shortcuts and power options.
 
-## What this project covers
+## What I've worked on
 
-- Moving from Cinnamon to the i3 tiling window manager.
-- Configuring i3, Polybar, Rofi, Picom, Kitty, wallpapers, shortcuts, and power actions.
-- Building a cohesive dark desktop with hot-pink accents.
-- Troubleshooting audio, screenshots, icons, startup behavior, and performance.
-- Learning to inspect configuration files, validate changes, and keep backups.
+- Switching from Cinnamon to i3.
+- Customizing i3, Polybar, Rofi, Picom, and Kitty.
+- Setting up wallpapers, a launcher, and a power menu.
+- Fixing issues with audio, icons, screenshots, and startup behavior.
+- Learning how to troubleshoot and check configuration changes.
 
-## Guides
+## Notes and guides
 
-- [Commands and desktop customization](docs/commands-and-customization.md)
-- [Troubleshooting and lessons learned](docs/troubleshooting.md)
-- [Safe publishing and privacy](SECURITY.md)
+- [Commands and customization](docs/commands-and-customization.md)
+- [Troubleshooting](docs/troubleshooting.md)
+- [Privacy and safe publishing](SECURITY.md)
 
-## Reference and credit
+## Inspiration
 
-This setup was inspired in part by [KaliGhost by StrinGhost](https://github.com/StrinGhost/KaliGhost). Credit goes to the original project for ideas and visual inspiration used as a reference. This repository documents my own learning process and choices for this Chromebook; it is not an official KaliGhost release. Check licenses before redistributing third-party code or artwork.
+I took inspiration from [KaliGhost by StrinGhost](https://github.com/StrinGhost/KaliGhost) while working on the look of my desktop. This is my own setup and learning project, not an official KaliGhost release.
 
-## Hardware context
+## Hardware
 
-The desktop was built on an Acer Chromebook 315 running Linux Mint, with an Intel Celeron N4500 processor, Intel UHD integrated graphics, and approximately 4 GB of RAM. A separate Chromebook-focused repository will document the device and installation process.
+- **Device:** Acer Chromebook 315
+- **OS:** Linux Mint
+- **CPU:** Intel Celeron N4500
+- **Graphics:** Intel UHD integrated graphics
+- **Memory:** 4 GB RAM
 
-## Safety notes
-
-Do not publish credentials, API keys, Wi-Fi details, private IP addresses, or machine-specific paths. Use placeholders in examples, back up configuration files before editing, and validate changes before reloading the desktop.
-
-## Project status
-
-This is a work in progress. Some original command history and configuration files still need to be exported from the device and reviewed before being published as exact, reproducible files.
+I'm adding notes and checking configuration files as I go, so the repository can show what I changed and what I learned along the way.
