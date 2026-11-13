@@ -1,0 +1,35 @@
+# Local configuration, backups, and editor state
+.env
+.env.*
+!.env.example
+*.bak
+*.backup
+*.old
+*.orig
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Private SSH, keys, and credentials
+.ssh/
+*.pem
+*.key
+id_rsa
+id_ed25519
+credentials*
+secrets*
+
+# Runtime files and logs
+*.log
+*.pid
+*.state
+logs/
+cache/
+__pycache__/
+.DS_Store
+Thumbs.db
+
+# Do not add raw home directories, browser profiles, screenshots,
+# or device-specific config exports without reviewing each file.
